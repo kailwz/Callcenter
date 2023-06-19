@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Font/Gotham-Light.otf')
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: "Gotham";
+    background-image: url("../images/coffee.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100%;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+body {
+    margin: auto;
+    width: 660px;
+    height: 683px;
+}
+
+#header {
+    margin: auto;
+    padding: 100px 0px 0px 0px;
+}
+
+#logo {
+    animation: top-space 400ms linear;
+    padding-left: 298px;
+    width: 64px;
+    height: 64px;
+}
+
+#main_title {
+    text-align: center;
+    padding: 30px 0px 0px 180px;
+    width: 300px;
+    height: 40px;
+}
+
+#begin_text {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#first_section {
+    width: 660px;
+    height: 220px;
+    margin: 70px 0px 0px 0px;
+    border-top: solid 1.5px whitesmoke;
+    border-bottom: solid 1.5px whitesmoke;
+}
+
+#list {
+    margin: 0px 0px 0px 40px;
+}
+
+#list li {
+    display: inline;
+    list-style: none;
+    float: left;
+}
+
+.left_border_remove, #begin_button {
+    border: solid 1.5px whitesmoke;
+    border-left: none;
+    padding: 13px 25px;
+    display: block;
+    font-size: 15px ;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#begin_button {
+    border: solid 1.5px whitesmoke;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#end_button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#list li:hover, .return:hover {
+    background-color: rgba(240, 240, 240, 0.15);
+}
+
+#list li:active, .return:active {
+    background-color: rgba(240, 240, 240, 0.35);
+}
+
+.article {
+    animation: fade-in 200ms ease-in;
+    animation-fill-mode: forwards;
+    background-color: rgb(27, 27, 27, 0.80);
+    margin: 0px 0px 20px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+}
+
+.article_text {
+    padding: 40px;
+}
+
+.article_title {
+    padding: 40px 40px  20px 40px;
+    text-decoration: underline 1.5px;
+    width: 400px;
+    height: 30px;
+}
+
+.call-center {
+    margin: 10px 0px 0px 75px;
+    border-radius: 5px;
+    width: 500px;
+    height: 250px;
+}
+
+#form {
+    padding: 0px 40px 40px 40px;
+}
+
+.label {
+    display: block;
+    padding: 10px;
+}
+
+.input {
+    background: none;
+    border: solid 1.9px whitesmoke;
+    color: whitesmoke;
+    border-radius: 3px;
+    width: 250px;
+    height: 35px;
+}
+
+.input:focus, #resume:focus {
+    background-color: rgba(240, 240, 240, 0.15);
+    border: solid 2px whitesmoke;
+    outline: none;
+}
+
+#resume {
+    padding: 10px;
+    color: whitesmoke;
+    background: none;
+    border: solid 1.9px whitesmoke;
+    border-radius: 3px;
+    width: 555px;
+    height: 250px;
+}
+
+#resume-wraper {
+    padding: 0px 0px 30px 0px;
+}
+
+#submit {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 3px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+.return {
+    padding: 15px 30px 15px 30px;
+    border: solid 1.5px whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.return_wraper {
+    padding: 0px 35px 35px 35px;
+}
+
+#return_wraper_contact {
+    margin: -33px 0px 0px 0px;
+    padding: 0px 0px 0px 120px;
+}
+
+#first-line {
+    margin: -4px 0px -70px 329px;
+    background-color: whitesmoke;
+    width: 1px;
+    height: 70px;
+}
+
+#second-line {
+    margin: 0px 0px 0px 329px;
+    background-color: whitesmoke;
+    width: 1px;
+    height: 70px;
+}
+
+#first_section {
+    animation: drawer 400ms linear;
+}
+
+#fade_in_animation {
+    animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes drawer {
+    0% {
+        width: 660px;
+        height: 20px;
+    }
+    100% {
+        width: 660px;
+        height: 220px;
+    }
+}
+
+@keyframes top-space{
+    0% {
+        margin-top: 100px;
+    }
+    10% {
+        margin-top: 90px;
+    }
+    20% {
+        margin-top: 80px;
+    }
+    30% {
+        margin-top: 70px;
+    }
+    40% {
+        margin-top: 60px;
+    }
+    50% {
+        margin-top: 50px;
+    }
+    60% {
+        margin-top: 40px;
+    }
+    70% {
+        margin-top: 30px;
+    }
+    80% {
+        margin-top: 20px;
+    }
+    90% {
+        margin-top: 10px;
+    }
+    100% {
+        margin-top: auto;
+    }
+}
