@@ -10,19 +10,19 @@ It is a simple site explaining how this interprise works, and with a page for su
   </li>
   <li>
     <p><strong>What it is:</p>
-    <img src=""/>
+    <img src="/Media/what_it_is.png"/>
   </li>
   <li>
     <p><strong>Advantages:</p>
-    <img src=""/>
+    <img src="/Media/advantages.png"/>
   </li>
   <li>
     <p><strong>Why:</p>
-    <img src=""/>
+    <img src="/Media/why.png"/>
   </li>
   <li>
     <p><strong>Join:</p>
-    <img src=""/>
+    <img src="/Media/join.png"/>
   </li>
 </ul>
 
