@@ -6,7 +6,7 @@ It is a simple site explaining how this interprise works, and with a page for su
 <ul>
   <li>
     <p><strong>Main Page:</p>
-    <img src=""/>
+    <img src="/Media/main_page.png"/>
   </li>
   <li>
     <p><strong>What it is:</p>
