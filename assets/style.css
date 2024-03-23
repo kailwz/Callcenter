@@ -18,6 +18,7 @@ html {
 }
 
 body {
+    background: none;
     margin: auto;
     width: 660px;
     height: 683px;
